@@ -101,10 +101,17 @@ gil-platform/
 
 ## Documentation
 
+### Development Guides
+- **[🚀 Claude Code Web Guide](docs/CLAUDE-CODE-WEB-GUIDE.md)** - Session-by-session build guide for parallel development
+- **[📦 Setup Summary](docs/SETUP-SUMMARY.md)** - Repository setup and getting started
+
+### Design & Specifications
 - **[Product Requirements (PRD)](docs/design/GIL-Platform-PRD-BMAD.md)** - Comprehensive BMAD framework specification
 - **[Technical Specifications](docs/design/Technical-Specs.md)** - Architecture and implementation guide
 - **[Unified Prototype Spec](docs/design/Unified-Prototype-Spec.md)** - Complete UI/UX specification
 - **[Peer Prediction Research](docs/research/Peer-Prediction-Mechanisms.md)** - BTS/RBTS mechanisms
+
+### API & Deployment
 - **[API Documentation](docs/api/)** - API endpoints and schemas
 - **[Deployment Guide](docs/DEPLOYMENT.md)** - Production deployment instructions
 
@@ -147,7 +154,7 @@ The modular architecture supports parallel Claude Code Web sessions:
 5. **Session 5: Community Features** - Kibera map, gamification
 6. **Session 6: Integration** - Connect components, E2E testing
 
-See [Technical Specs](docs/design/Technical-Specs.md) for detailed session breakdowns.
+**→ See [Claude Code Web Guide](docs/CLAUDE-CODE-WEB-GUIDE.md) for detailed session-by-session instructions, context templates, and mock data.**
 
 ### Running Tests
 
