@@ -1,0 +1,31 @@
+# Core Framework
+fastapi==0.108.0
+uvicorn[standard]==0.25.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# Scientific Computing (IRT, ML)
+numpy==1.26.2
+scipy==1.11.4
+scikit-learn==1.3.2
+
+# Utilities
+python-dateutil==2.8.2
+email-validator==2.1.0
+
+# Optional: Advanced Features (uncomment when needed)
+# redis==5.0.1
+# celery==5.3.4
+# sentence-transformers==2.2.2
+# httpx==0.25.2
